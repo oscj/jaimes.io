@@ -5,7 +5,7 @@ import { Card } from 'flowbite-react';
 export default function Projects() {
   return (
     <div className='m-9 mt-2'>
-      <h1 className='font-bold text-2xl'>Projects</h1>
+      <h1 className='font-bold text-4xl'>Projects</h1>
 
       <Card>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
