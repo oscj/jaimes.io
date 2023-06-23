@@ -1,6 +1,6 @@
 'use client'
 
-import { Card, Timeline, Button } from 'flowbite-react';
+import { Card, Timeline } from 'flowbite-react';
 
 export default function Projects() {
   return (
@@ -71,7 +71,7 @@ export default function Projects() {
                     <Timeline.Body>
                       <p>
                         <ul>
-                          <li>- Developed and deployed an MVP data pipeline to interface third-party industrial transportation IoT devices into BlackBerry's cloud platform</li>
+                          <li>- Developed and deployed an MVP data pipeline to interface third-party industrial transportation IoT devices into BlackBerrys cloud platform</li>
                           <li>- Re-engineered the http client layer for a SPA react/angular web application with thousands of users.</li>
                           <li>- Assisted in the maintenance of frontend and backend services relating to the processing and storage of sensor data from IoT devices </li>
                           <li>- Tools used: JavaScript, Docker, Jenkins, Elasticsearch, Git, MySQL, AWS</li>
