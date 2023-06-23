@@ -8,9 +8,18 @@ export default function Home() {
     <div className="bg-white h-screen">
       <Nav />
       <div className="bg-white text-black pt-16">
-        <section id="about"><About /></section>
-        <section id="projects"><Projects /></section>
-        <section id="resume"><Resume /></section>
+        <section id="about">
+          <br />
+          <br />
+          <br /><About /></section>
+        <section id="projects">
+          <br />
+          <br />
+          <br /><Projects /></section>
+        <section id="resume">
+          <br />
+          <br />
+          <br /><Resume /></section>
       </div>
     </div>
   );

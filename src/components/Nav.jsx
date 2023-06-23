@@ -8,7 +8,8 @@ export default function Nav() {
   const handleClick = (id) => {
     document.querySelector(`#${id}`).scrollIntoView({
       behavior: 'smooth',
-      block: 'start'
+      block: 'start',
+      inline: "nearest"
     });
   };
 
@@ -24,11 +25,11 @@ export default function Nav() {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button className='p-0' >
+        <Button className='p-0' href="https://github.com/oscj" target="_blank">
           <FaGithub size={20} />
         </Button>
         <Button className='p-0 ml-2'>
-          <FaLinkedin size={20} />
+          <FaLinkedin size={20} href="https://www.linkedin.com/in/oscj/" target="_blank"/>
         </Button>
         <Navbar.Toggle />
       </div>
