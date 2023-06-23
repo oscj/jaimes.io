@@ -6,11 +6,21 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export default function Nav() {
 
   const handleClick = (id) => {
-    document.querySelector(`#${id}`).scrollIntoView({
+    const element = document.querySelector(`#${id}`);
+
+    element.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: "nearest"
     });
+
+    setTimeout(() => {
+      element.classList.add('bounce');
+    }, 100)
+
+    setTimeout(() => {
+      element.classList.remove('bounce');
+    }, 1000); // Remove after 1s
   };
 
   return (
@@ -29,7 +39,7 @@ export default function Nav() {
           <FaGithub size={20} />
         </Button>
         <Button className='p-0 ml-2'>
-          <FaLinkedin size={20} href="https://www.linkedin.com/in/oscj/" target="_blank"/>
+          <FaLinkedin size={20} href="https://www.linkedin.com/in/oscj/" target="_blank" />
         </Button>
         <Navbar.Toggle />
       </div>

@@ -7,7 +7,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export default function About() {
   return (
     <div className='m-9 mt-2'>
-      <h1 className='font-bold text-2xl'>About</h1>
+      <h1 className='font-bold text-4xl'>About</h1>
 
       <Card>
         <div className="grid sm:grid-cols-1 md:grid-cols-2">
